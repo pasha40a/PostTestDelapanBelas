@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Asus/SQABatch6/PostTestDelapanBelas/src/test/java/com/juaracoding/posttestdelapanbelas/TestDashboard.java">
+        <classes>
+            <class name="com.juaracoding.posttestdelapanbelas.TestDashboard">
+                <methods>
+                    <include name="testSearchValid"/>
+                    <include name="testSearchInvalid"/>
+                    <include name="testSearchKosong"/>
+                    <include name="testAddToCart"/>
+                    <include name="testAddToCartKedua"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
